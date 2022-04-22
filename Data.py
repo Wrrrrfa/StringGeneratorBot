@@ -22,6 +22,10 @@ You Can Use This Bot To Generate Pyrogram & Telethon String Session. Use Below B
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
     ]
 
+    saved_msg = [
+        [InlineKeyboardButton("🔰 Click To Go To Saved Message 🔰", url="tg://openmessage?user_id={m.chat.id}")]
+    ]
+
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
